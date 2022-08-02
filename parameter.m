@@ -31,7 +31,7 @@ T56 = [ cos(o6)  -sin(o6)  0        0       ;
         0         0        1        d6      ;
         0         0        0        1     ] ;
     
-T61 = simplify(inv(T01) * T3)
-T16 = simplify(T12 * T23 * T34 * T45 * T56) 
+T61 = simplify(inv(T01) * T3) ;
+T16 = simplify(T12 * T23 * T34 * T45 * T56) ;
 
 
